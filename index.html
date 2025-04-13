@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat&White | Cafe de especialidad</title>
+    <!-- Link css bstrp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+    crossorigin="anonymous">
+    <!--Mi css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/fav-icon-flat.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="menu-flat navbar navbar-expand-lg nav-pill">
+            <div class="container justify-content-between">
+              <a class="logo-flat navbar-brand" href="#">
+                <img src="./img/flatwhite-logo.svg" alt="Logo de Flat&White">
+              </a>
+          
+              <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-cafe" href="#">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-cafe" href="#">Membresía F&W</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-cafe" href="#">Menú</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-cafe" href="#">Locales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-cafe" href="#">Cursos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>          
+    </header>
+    <main>
+        <section class="carrusel-main">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/hero-1.jpg" class="d-block w-100" alt="Nueva bebida helada, cafe con leche healdo, con salsa de dulce de leche">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nuevo Ice dulce de leche coffee</h5>
+                      <p>Proba el favorito de todos, disponible en todas las sucursales.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/hero-2.jpg" class="d-block w-100" alt="Imagen de una de nuestras fincas asociadas en latinoamerica">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Cafe obtenido 100% de manera responsable</h5>
+                      <p>Comercializamos cafe arabigo de la mejor calidad, conoce nuestras fincas asociadas.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/hero-3.jpg" class="d-block w-100" alt="granos de cafe recien tostados">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Imagenes que emanan fragancia</h5>
+                      <p>tostamos nuestros granos, de la manera que mas te gustan.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="cafes-section py-5 text-center">
+            <h1 class="mb-3">Café de especialidad en Buenos Aires</h1>
+            <h2 class="mb-5">Conocé nuestros cafés insignia</h2>
+          
+            <div class="container">
+              <div class="row g-4 justify-content-center">
+                
+                <!-- Tarjeta 1 -->
+                <div class="col-md-4">
+                  <figure class="card h-100 shadow cafe-card">
+                    <img src="./img/colombia-flat.png" class="card-img-top" alt="Café de Colombia">
+                    <figcaption class="card-body">
+                      <h5 class="card-title">Colombia Supremo</h5>
+                      <p class="card-text">Notas dulces, acidez balanceada y cuerpo medio. Ideal para espresso o prensa francesa.</p>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+                <!-- Tarjeta 2 -->
+                <div class="col-md-4">
+                  <figure class="card h-100 shadow cafe-card">
+                    <img src="./img/guatemala-flat.png" class="card-img-top" alt="Café de Etiopía">
+                    <figcaption class="card-body">
+                      <h5 class="card-title">Etiopía Yirgacheffe</h5>
+                      <p class="card-text">Aromas florales y sabor frutado. Perfecto para métodos filtrados.</p>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+                <!-- Tarjeta 3 -->
+                <div class="col-md-4">
+                  <figure class="card h-100 shadow cafe-card">
+                    <img src="./img/bolivia-flat.png" class="card-img-top" alt="Café Blend Flat&White">
+                    <figcaption class="card-body">
+                      <h5 class="card-title">Blend Flat&White</h5>
+                      <p class="card-text">Nuestro blend exclusivo: balance perfecto entre sabor, cuerpo y dulzura.</p>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+          
+    </main>
+    <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+      
+            <!-- Sobre Nosotros -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold">Sobre Nosotros</h5>
+              <p>Somos Flat & White, una cafetería de especialidad que busca reconectar a las personas con el buen café y las buenas charlas. Nacimos en Recoleta, pero nuestra comunidad no tiene fronteras.</p>
+            </div>
+      
+            <!-- Contacto -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold">Contáctanos</h5>
+              <p><a href="mailto:hola@flatandwhite.com" class="text-dark text-decoration-none">contac@flatandwhite.com</a></p>
+              <p><a href="tel:+541122334455" class="text-dark text-decoration-none">+54 11 2233 4455</a></p>
+            </div>
+      
+            <!-- Reseñas -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold">Reseñas</h5>
+              <p><a href="#" class="text-dark text-decoration-none">Lo que dicen de nosotros</a></p>
+              <p><a href="#" class="text-dark text-decoration-none">Dejá tu reseña</a></p>
+            </div>
+      
+            <!-- Redes Sociales -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold">Encontranos en redes</h5>
+              <a href="#" class="me-3 text-dark"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="#" class="me-3 text-dark"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="#" class="me-3 text-dark"><i class="fab fa-tiktok fa-lg"></i></a>
+              <a href="#" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>
+            </div>
+      
+          </div>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="mb-0">© 2025 Flat & White · Hecho con ❤ en Buenos Aires</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Link JS bstp -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
