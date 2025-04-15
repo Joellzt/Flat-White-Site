@@ -14,6 +14,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   width: 1300px;
+  height: 80px;
   max-width: 90%;
 }
 
@@ -95,6 +96,52 @@
 }
 .cafe-card .card-img-top {
   object-fit: cover;
+}
+
+body {
+  background-color: rgb(253, 232, 213);
+}
+
+.localcafe {
+  margin-top: 30px;
+}
+.localcafe img {
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+}
+
+.member-flat h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-flat {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(206, 180, 176, 0.6039215686);
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.form-flat button {
+  width: 200px;
+}
+
+.benefits-flat h2 {
+  margin-top: 150px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cont-carousel-benefits h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

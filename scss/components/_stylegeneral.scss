@@ -1,0 +1,49 @@
+@use '../utils/variables' as *;
+body{
+    background-color: $color-bg;
+}
+.localcafe{
+    margin-top: 30px;
+    img{
+        object-fit: cover;
+        width: 50%;
+        height: auto;
+    }
+}
+
+.member-flat{
+    h1{ 
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+.form-flat{
+        display: flex;
+        flex-direction: column;
+        background-color: #ceb4b09a;
+        width: 40%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 30px;
+        button{
+            width: 200px;
+        }
+    }
+// style carousel benfits  
+.benefits-flat{
+    h2{
+        margin-top: 150px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+.cont-carousel-benefits{
+    h1{
+        text-align: center;
+    }
+}
